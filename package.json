@@ -1,7 +1,7 @@
 {
-  "name": "typescript-base",
+  "name": "cifrado-cesar",
   "version": "1.0.0",
-  "description": "Plantilla base de TypeScript para alumnos",
+  "description": "Ejercicio: Cifrado César — cifrar y descifrar mensajes en TypeScript",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -13,7 +13,9 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test-base": "vitest run tests/base.test.ts",
+    "test-manija": "vitest run tests/manija.test.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
